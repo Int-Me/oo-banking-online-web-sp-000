@@ -12,7 +12,7 @@ class BankAccount
   end
 
   def display_balance
-    @balance
+    puts @balance.to_s
   end
 
   def valid?
